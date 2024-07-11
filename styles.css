@@ -130,4 +130,14 @@ a:hover{
     cursor: pointer;
 }
 
+.cc{
+    color: rgb(255, 68, 0);
+    cursor: pointer;
+
+}
+
+.cc:hover{
+    color: rgb(17, 0, 253);
+}
+
 
