@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* transformrotate No Animaed code css */
+
+.transformrotate{
+    width: 150px;
+    height: 70px;
+    background-color: red;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    transform: rotate(20deg);
+    
+}
+
+.transformskewY{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(21, 18, 224);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    transform: skewY(20deg);
+}
+
+.transformscaleY{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(254, 154, 6);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    transform: scaleY(1.5);
+
+
+}
+
+
+/* This is transformAnimated */
+
+.transformrotateAnimated{
+    width: 150px;
+    height: 70px;
+    background-color: red;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    
+}
+
+.transformskewYAnimated{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(21, 18, 224);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+.transformscaleYAnimated{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(254, 154, 6);
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: .5rem;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+
+
+
+}
+
+/* transformYAnimated for:Hover */
+.transformrotateAnimated:hover{
+    transform: rotate(20deg);
+    cursor: pointer;
+}
+
+.transformskewYAnimated:hover{
+    transform: skewY(20deg);
+    cursor: pointer;
+}
+
+.transformscaleYAnimated:hover{
+    transform: scaleY(1.5);
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+p{
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    clear: both;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    color: aliceblue;
+    text-wrap:wrap;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+    text-wrap:wrap;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 3, 90);
+    transform: all 1s ;
+    text-decoration:underline;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
